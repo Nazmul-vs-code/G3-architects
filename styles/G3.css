@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* header related styles */
+
+
+
+
+
+
+/* navigation bar styles */
+nav {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links .nav-item {
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link {
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+/* shared styles */
+
+.btn-primary {
+    background-color: #FF900E;
+    width: 180px;
+    height: 60px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 20px 25px ;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* dark-2 */
+.text-gray {
+    color: #424242;
+}
+/* dark-3 */
+.light-gray {
+    color: #616161;
+}
+
+.bg-light {
+    background-color: rgb(255, 144, 14, 0.1);
+}
+
+.navbar, .banner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.display-flex {
+    display: flex;
+}
+
+/* Banner related styles */
+.banner-content {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.banner-image {
+    width: 100%;
+}
+
+@media screen and (max-width:576px) {
+    .navbar, .nav-links {
+        flex-direction: column;
+    }
+}
